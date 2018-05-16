@@ -9,4 +9,9 @@ public class MyController {
     public String get(){
         return "My Apps";
     }
+
+    @RequestMapping("/abc")
+    public String gets(){
+        return "Her apps"
+    }
 }
